@@ -37,7 +37,7 @@ export function AuthLayout({ children }) {
           </div>
         </div>
 
-        <p className="relative text-xs text-white/60">© {new Date().getFullYear()} Timely Forms AI. Crafted for premium teams.</p>
+        <p className="relative text-xs text-white/60">© {new Date().getFullYear()} Formly AI. Crafted for premium teams.</p>
       </div>
 
       <div className="flex w-full flex-col items-center justify-center p-6 lg:w-1/2">

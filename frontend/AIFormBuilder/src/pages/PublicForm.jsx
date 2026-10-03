@@ -22,7 +22,7 @@ export default function PublicForm() {
         setForm(f);
         setStatus("ready");
         startedAt.current = Date.now();
-        document.title = `${f.settings?.seoTitle || f.title} — Timely Forms AI`;
+        document.title = `${f.settings?.seoTitle || f.title} —  Formly AI`;
       })
       .catch(() => setStatus("notfound"));
   }, [slug]);
@@ -90,7 +90,7 @@ function SuccessScreen({ form }) {
           {form.settings?.thankYouMessage || "Thank you!"}
         </h1>
         <p className="mt-2 text-sm text-slate-500">Your response has been recorded.</p>
-        <p className="mt-8 text-xs text-slate-400">Powered by Timely Forms AI</p>
+        <p className="mt-8 text-xs text-slate-400">Powered by  Formly AI</p>
       </div>
     </div>
   );

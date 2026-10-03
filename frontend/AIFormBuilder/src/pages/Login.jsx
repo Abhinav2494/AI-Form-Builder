@@ -35,7 +35,7 @@ export default function Login() {
 
   const fillDemo = () => {
     // Set through RHF (not the DOM) so form state + validation stay in sync.
-    setValue("email", "alex@timetoprogram.dev", { shouldValidate: true });
+    setValue("email", "demoView.dev", { shouldValidate: true });
     setValue("password", "Test@1234", { shouldValidate: true });
   };
 
@@ -45,7 +45,7 @@ export default function Login() {
         <div className="flex justify-center">
           <Link to="/">
             <span className="text-2xl font-bold tracking-tight text-fg">
-              Timely Forms <span className="text-brand-600">AI</span>
+              Formly <span className="text-brand-600">AI</span>
             </span>
           </Link>
         </div>
@@ -55,7 +55,7 @@ export default function Login() {
         Welcome back
       </h2>
       <p className="mt-1.5 text-sm text-muted">
-        Log in to your Timely Forms AI workspace.
+        Log in to your Formly AI workspace.
       </p>
 
       <form onSubmit={handleSubmit(onSubmit)} className="mt-7 space-y-4">
