@@ -15,6 +15,7 @@ export const env = {
   gemini: {
     apiKey: process.env.GEMINI_API_KEY || "",
     model: process.env.GEMINI_MODEL || "gemini-2.0-flash",
+    fallbackModel: process.env.GEMINI_FALLBACK_MODEL || "",
   },
 };
 export const isProd = env.nodeEnv
