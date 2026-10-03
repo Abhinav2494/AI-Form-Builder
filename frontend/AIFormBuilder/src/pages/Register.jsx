@@ -22,7 +22,7 @@ export default function Register() {
     setSubmitting(true);
     try {
       const user = await signup(values);
-      toast.success(`Welcome to Timely Forms AI, ${user.name.split(" ")[0]}! 🎉`);
+      toast.success(`Welcome to Formly AI, ${user.name.split(" ")[0]}! 🎉`);
       navigate("/dashboard", { replace: true });
     } catch (err) {
       toast.error(err.message);

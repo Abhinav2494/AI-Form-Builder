@@ -104,7 +104,7 @@ export default function Settings() {
         </Section>
 
         {/* Appearance */}
-        <Section icon={Palette} title="Appearance" desc="Choose how Timely Forms AI looks to you.">
+        <Section icon={Palette} title="Appearance" desc="Choose how Formly AI looks to you.">
           <div className="grid grid-cols-2 gap-3">
             <ThemeOption active={!isDark} onClick={() => setTheme("light")} icon={Sun} label="Light" />
             <ThemeOption active={isDark} onClick={() => setTheme("dark")} icon={Moon} label="Dark" />
