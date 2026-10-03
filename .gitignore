@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Environment variables (database URL, JWT secret, API keys)
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+.vite/
+.vite-temp/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test coverage
+coverage/
+
+# Caches
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Uploaded files (if you add local uploads later)
+uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
